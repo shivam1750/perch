@@ -26,7 +26,7 @@ sudo apt-get install libsndfile1 ffmpeg
 # Install all dependencies specified in the poetry configs
 poetry install  --with jaxtrain
 ```
-
+  
 Running `poetry install` installs all Perch dependencies into a new virtual environment, in which you can run the Perch code base. To run the tests, use:
 
 ```bash
